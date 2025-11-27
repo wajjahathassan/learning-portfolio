@@ -56,10 +56,12 @@ if decision == "Open":
                 You are scared, but you really want to see what is inside and ...
                 ... your nightmare continues ...""")
             else:
-                print("Awwww maayyynn! Not this agaaiiinn!")
+                print("""Awwww maayyynn! Not this agaaiiinn!
+                      You tripped over your own feet in the dark. The nightmare resets!""")
 
         else:
-            print("Oh my Gawd bro, hell noo!")
+            print("""Oh my Gawd bro, hell no! You can't just do that.
+                  The ghost catches you while you're being indecisive.""")
 
     elif decision == "Go upstairs":
         print("""You walk up the creaky stairs to find some light.
@@ -89,12 +91,14 @@ if decision == "Open":
                 You are scared, but you really want to see what is inside and ...
                 ... your nightmare continues ...""")
         else:
-            print("Why this science fudging man?")
+            print("""Why this science fudging, man? That's not even a door!
+                  You stand there confused until the lights go out.""")
 
     else:
-        print("Ain't nobody got time for that!")
+        print("""Ain't nobody got time for that!
+              You waited too long, and the darkness swallowed you whole.""")
 
 elif decision == "Run":
     print("You chose sanity... but... Game Over!")
 else:
-    print("Whaaaaaaaaaaaaaaaaaaaaaaattt???")
+    print("""Whaaaaaaaaaaaat??! That wasn't a choice! The game crashes from your confusion.""")
